@@ -16,7 +16,8 @@ public class Cifrado {
     public static void main(String[] args) {
         CifradoClass cf = new  CifradoClass();
         cf.Cifrado("deja de espiarme");
-        
+        System.out.println("");
+        System.out.println(cf.cortarPalabra("deja de espiarme"));
     }
     
 }
